@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+<body style="background-color: chocolate;">
+        <h1 style="color: aquamarine;">Your <b>mum</b></h1> <!--<b>  zvyrazneni textu, <i> jine pismo, <sub> text dolu, <sup> text nahoru, <mark> prebarveny, <ins> podtrhnuty, <del> preskrtnuty -->
+                <hr> <!--mezera mezi textem-->
+                <h2 style="color: darkgreen;">:D</h2>
+        
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank>Neco o me</a>
+        
+                <a href="https://cs.wikipedia.org/wiki/%C5%BDab%C3%A1k_Pepe">
+                        <img src="pepega.png" height="200" title="nwm co sem dat">        
+                </a>
+        
+                <audio controls muted loop src="05. Elevator Jam.mp3">
+                        <source src="05. Elevator Jam.mp3">
+                        Your device does not suport this mp4
+                </audio>
+        
+                <video controls src="Untitled.mov" width="400">  
+        
+        <h4> rozhazeny list</h4>
+                <ul> 
+                     <li>pizza
+                        <ul>
+                                <li>houby</li>
+                        </ul>
+                     </li>
+                     <li>tomato</li>
+                     <li>milk</li>      
+                </ul>
+        <h4> poskladany list</h4>
+                <ol>
+                        <li>snidane</li>
+                        <li>zuby</li>
+                        <li>skola</li>
+                </ol>
+        <h4>popisek</h4>
+                <dl>
+                        <dt>skola</dt>
+                        <dd>nuda</dd>
+                </dl>
+                
+        <iframe src="https://www.bing.com">
+
+         
+                <button onclick="doSomething()" style="background-color:cadetblue;color:brown;border-radius: 5px;">press here</button>
+         <p id="test">hello</p>
+
+         <script>
+                function doSomething(){
+                        document.getElementById("test").innerHTML = "goodbye"
+                }
+         </script>
+
+         <form action="action_page.php" method="POST"> <!-- GET pro verejne informace-->
+                <div>
+                        <label for="fname">first name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+                </div>
+
+                <br>
+
+                <div>
+                        <label for="lname">last name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+                </div>
+
+                <br>
+
+                <div>
+                        <label for="pass">password:</label>
+                        <input type="password" id="pass" name="pass" maxlength="12" required>
+                </div>
+
+                <br>
+               
+                <div>
+                        <label for="email">email:</label>
+                        <input type="email" id="email" name="email" placeholder="SPantsl.com" required>
+                </div>
+
+                <br>
+
+                <div>
+                        <label for="phone">phone #</label>
+                        <input type="tel" id="phone" name="phone" placeholder="111 222 333">
+                </div>
+
+                <br>
+
+                <div>
+                        <label for="bdate">birthday:</label>
+                        <input type="date" id="bdate" name="bdate">
+                </div>
+                
+                <br>
+
+                <div>
+                        <label for="title">title:</label>
+
+                        <label for="Mr.">Mr.</label>
+                        <input type="radio" id="Mr." name="title" value="Mr.">
+
+                        <label for="Mrs.">Mrs.</label>
+                        <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+                        <label for="PhD.">PhD.</label>
+                        <input type="radio" id="PhD." name="title" value="PhD.">
+                </div>
+
+                <br>
+
+                <div>
+                        <label for="payment">payment:</label>
+                        <select id="payment" name="payment">
+                                <option value="visa">visa</option>
+                                <option value="mastercard">mastercard</option>
+                                <option value="giftcard">giftcard</option>
+                        </select>
+                </div>
+
+                <br>
+
+                <div>
+                        <label for="like">like:</label>
+                        <input type="checkbox" id="like" name="like">
+                </div>
+
+                <br>
+                
+                <div>
+                        <input type="reset">
+                </div>
+
+                <br>
+
+                <div>
+                        <input type="submit">
+                </div>
+        </form>
+
+</body>
+
+<head>
+        <title>My first website</title>
+
+        <meta name="author" content="Dabin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       
+</head>
+
+</html>
